@@ -1,7 +1,11 @@
 .photo-aligment-left{
     align-items: flex-start;
+    align-self: flex-start;
     vertical-align: middle;
 
+}
+.title-aligment {
+    text-align: center;
 }
 .grid{
     display: grid;
