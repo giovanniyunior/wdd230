@@ -6,6 +6,7 @@
 }
 .title-aligment {
     text-align: center;
+    vertical-align: center;
 }
 .grid{
     display: grid;
@@ -21,7 +22,7 @@
 
 }
 .col-5-12{
-    grid-column: 5/12;
+    grid-column: 5/13;
     grid-row: 1;
 }
 .img-content {
