@@ -7,8 +7,11 @@
 
 }
 .title-aligment-center {
+    display: flex;
+    align-items: center;
     text-align: center;
     vertical-align: middle;
+
 }
 .grid{
     display: grid;
