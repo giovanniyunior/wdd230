@@ -35,9 +35,8 @@
 .color-container {
     border-radius: 25px;
     background-color: antiquewhite;
-    max-height: 8em;
+    max-height: 10em;
 }
 .img-size-medium {
-    width: 70%;
-    height: 70%;
+    width: 50%;
 }
