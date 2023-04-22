@@ -52,6 +52,6 @@
     background-color: antiquewhite;
     max-height: 10em;
 }
-.img-size-medium {
-    width: 50%;
+.img-size {
+    width: 100%;
 }
