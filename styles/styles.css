@@ -50,6 +50,10 @@
 .color-container {
     background-color: antiquewhite;
     max-height: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .img-size {
     width: 100%;
