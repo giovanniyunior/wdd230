@@ -48,9 +48,8 @@
     max-height: 10em;
 }
 .color-container {
-    border-radius: 25px;
     background-color: antiquewhite;
-    max-height: 10em;
+    max-height: 8em;
 }
 .img-size {
     width: 100%;
