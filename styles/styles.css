@@ -35,4 +35,5 @@
 .color-container {
     border-radius: 25px;
     background-color: antiquewhite;
+    max-height: 4em;
 }
