@@ -9,18 +9,23 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(12,1fr);
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
 }
-.col-2-6{
-    grid-column: 2/6;
+.col-1-5{
+    grid-column: 1/5;
     grid-row: 1;
 
 }
-.col-4-6{
-    grid-column: 4/6;
+.col-5-12{
+    grid-column: 5/12;
     grid-row: 1;
+}
+.img-content {
+    object-fit: contain;
+    max-height:100%; 
+    max-width:100%;
 }
