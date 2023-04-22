@@ -45,7 +45,7 @@
 .color-container-circle-border {
     border-radius: 25px;
     background-color: antiquewhite;
-    max-height: 10em;
+    width: 100%;
 }
 .color-container {
     background-color: antiquewhite;
