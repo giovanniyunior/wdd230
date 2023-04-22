@@ -1,0 +1,18 @@
+.photo-aligment-left{
+    align-items: flex-start;
+    vertical-align: middle;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+}
+.col-2-6{
+    grid-column: 2/6;
+    grid-row: 1;
+
+}
+.col-4-6{
+    grid-column: 4/6;
+    grid-row: 1;
+}
