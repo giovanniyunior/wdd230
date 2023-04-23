@@ -1,2 +1,4 @@
-document.getElementById("lastModifiedDate").innerHTML = new Date(document.lastModified);
+
+const date = new Date(document.lastModified);
+document.getElementById("lastModifiedDate").innerHTML = date;
 console.log('IN JS');
