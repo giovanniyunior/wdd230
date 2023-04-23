@@ -61,7 +61,8 @@
     width: 100%;
 }
 .aligment-bottom{
-    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
 }
 .center-page {
     align-items: center;
