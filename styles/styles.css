@@ -11,6 +11,9 @@
     justify-content: center;
     text-align: center;
 }
+.text-aligment-center {
+    text-align: center;
+}
 .text-center{
     display: flex;
     justify-content: center;
