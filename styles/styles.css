@@ -70,6 +70,7 @@
 .aligment-bottom{
     position: absolute;
     bottom: 10em;
+    width: 100%;
 }
 .center-page {
     align-items: center;
@@ -79,4 +80,5 @@
 .footer{
     position: absolute;
     bottom: 0px;
+    width: 100%;
 }
