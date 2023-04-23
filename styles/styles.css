@@ -7,10 +7,8 @@
 
 }
 .title-aligment-center {
-    align-items: center;
+    justify-content: center;
     text-align: center;
-    vertical-align: middle;
-
 }
 .grid{
     display: grid;
@@ -46,8 +44,6 @@
     border-radius: 25px;
     background-color: antiquewhite;
     width: 100%;
-    justify-content: center;
-    text-align: center;
 }
 .color-container {
     background-color: antiquewhite;
