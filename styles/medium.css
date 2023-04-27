@@ -74,6 +74,9 @@
     .body-container{
         min-height: 20em;
     }
+    .font-large{
+        font-size: 4em;
+    }
     .img-size {
         width: 70%;
     }
