@@ -5,7 +5,7 @@
     h1, h2, h3 { font-family: 'Ysabeau', sans-serif; 
     }
     
-    .photo-aligment-left{
+    .photo-aligment{
         align-items: flex-start;
         align-self: flex-start;
         vertical-align: middle;
