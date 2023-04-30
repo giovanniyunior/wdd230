@@ -43,7 +43,8 @@
         grid-row: 2;
     }
     .card-title{
-        border-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
         background-color: darkgray;
         width: 100%;
         color: white;
