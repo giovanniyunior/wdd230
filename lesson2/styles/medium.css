@@ -39,7 +39,7 @@
         padding-bottom: 1em;
         padding-left: 1em;
         padding-right: 1em;
-        grid-column: 1/7;
+        grid-column: 1/13;
         grid-row: 2;
     }
     .card-title{
@@ -48,6 +48,10 @@
         background-color: darkgray;
         width: 100%;
         color: white;
+        padding-top: .1em;
+        padding-bottom: .1em;
+        padding-left: .1em;
+        padding-right: .1em;
     }
     .img-container{
         object-fit: contain;
