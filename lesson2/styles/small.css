@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
 @media screen and (max-width: 39.9375em) {
-    
+    h1, h2, h3 { font-family: 'Ysabeau', sans-serif; 
+    }
+    .title-background{
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+
+
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .grid-element1{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-column: 1/13;
+        grid-row: 1;    
+    }
+    .grid-element2{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-column: 1/13;
+        grid-row: 2;   
+    }
+    .grid-element3{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-column: 1/13;
+        grid-row: 3;
+    }
+    .card-title{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: darkgray;
+        width: 100%;
+        color: white;
+        padding-top: .1em;
+        padding-bottom: .1em;
+        padding-left: .1em;
+        padding-right: .1em;
+    }
+    .img-container{
+        object-fit: contain;
+
+    }
+    img{
+        width: 100%;
+
+    }
+    .card-description-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+
+    }
+
 }
