@@ -23,6 +23,24 @@
         padding-bottom: 1em;
         padding-left: 1em;
         padding-right: 1em;
+        grid-column: 1/6;
+        grid-row: 1;    
+    }
+    .grid-element2{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-column: 6/13;
+        grid-row: 1;   
+    }
+    .grid-element3{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-column: 1/6;
+        grid-row: 2;
     }
     .card-title{
         border-radius: 25px;
