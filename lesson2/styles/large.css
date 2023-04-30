@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+@media screen and (min-width: 64em) {
     h1, h2, h3 { font-family: 'Ysabeau', sans-serif; 
     }
     .title-background{
