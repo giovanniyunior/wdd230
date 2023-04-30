@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    
+    h1, h2, h3 { font-family: 'Ysabeau', sans-serif; 
+    }
+    .title-background{
+        background-color: darkblue;
+        color: white;
+
+
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .grid-element1{
+
+    }
+    .card-title{
+        border-radius: 25px;
+        background-color: darkgray;
+        width: 100%;
+        color: white;
+    }
+    .img-container{
+        object-fit: contain;
+        max-height:100%; 
+        max-width:100%;
+
+    }
+    .card-description-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        background-color: darkblue;
+        color: white;
+
+    }
+
 }
