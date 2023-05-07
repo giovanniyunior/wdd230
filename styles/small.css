@@ -56,7 +56,6 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 }
 .aligment-bottom{
     position: absolute;
-    bottom: 10em;
     width: 100%;
 }
 .center-page {
