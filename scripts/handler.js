@@ -4,6 +4,6 @@ window.onload = function(){
     document.getElementById("lastModifiedDate").innerHTML = date.toLocaleString();
     console.log('IN JS');
 
-    document.querySelector("p.copyright").innerHTML = "&copy; "+ date.getFullYear();
+    document.querySelector("span.copyright").innerHTML = "&copy; "+ date.getFullYear();
 
 }
