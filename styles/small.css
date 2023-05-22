@@ -31,7 +31,7 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 .color-container-circle-border {
     border-radius: 25px;
     background-color: antiquewhite;
-    width: 100%;
+    max-width: 100%;
 }
 .color-container {
     background-color: antiquewhite;
@@ -61,12 +61,11 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 .center-page {
     align-items: center;
     align-self: center;
-    width: 100%;
 }
 .footer{
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    max-width: 100%;
 }
 .list-circle{
     list-style-type: circle;
