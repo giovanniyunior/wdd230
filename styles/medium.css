@@ -94,6 +94,9 @@
     .footer, body, header{
         max-width: 70%;
     }
+    .hr{
+        max-width: 70%;
+    }
     .footer{
         position: absolute;
         bottom: 0px;
