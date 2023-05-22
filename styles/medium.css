@@ -91,17 +91,17 @@
         justify-content: center;
         margin: auto;
     }
-    .body {
+    body {
         max-width: 70%;
     }
     .hr{
         max-width: 70%;
     }
-    .header {
+    header {
         max-width: 70%;
 
     }
-    .footer{
+    footer{
         position: absolute;
         bottom: 0px;
         max-width: 70%;
