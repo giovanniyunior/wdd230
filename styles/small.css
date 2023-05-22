@@ -65,6 +65,7 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 footer{
     position: absolute;
     bottom: 0px;
+    
 }
 .list-circle{
     list-style-type: circle;

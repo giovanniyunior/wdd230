@@ -98,13 +98,13 @@
         max-width: 70%;
     }
     header {
-        max-width: 70%;
+        max-width: 100%;
 
     }
     footer{
         position: absolute;
         bottom: 0px;
-        max-width: 70%;
+        max-width: 100%;
 
     }
     .list-circle{
