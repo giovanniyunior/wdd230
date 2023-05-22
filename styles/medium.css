@@ -91,15 +91,21 @@
         justify-content: center;
         margin: auto;
     }
-    .footer, body, header{
+    .body, {
         max-width: 70%;
     }
     .hr{
         max-width: 70%;
     }
+    .header {
+        max-width: 100%;
+
+    }
     .footer{
         position: absolute;
         bottom: 0px;
+        max-width: 100%;
+
     }
     .list-circle{
         list-style-type: circle;
