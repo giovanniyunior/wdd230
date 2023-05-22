@@ -72,3 +72,6 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
     list-style-type: circle;
 
 }
+.footer, body, header{
+    max-width: 70%;
+}
