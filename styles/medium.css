@@ -83,7 +83,7 @@
     .aligment-bottom{
         position: absolute;
         padding-bottom: 0.5em;
-        width: 100%;
+        max-width: 70%;
     }
     .center-page {
         align-items: center;
