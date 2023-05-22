@@ -64,6 +64,11 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 }
 footer{
     bottom: 0px;
+    max-width: 100%;
+
+}
+body, header{
+    max-width: 100%;
 
 }
 .list-circle{
