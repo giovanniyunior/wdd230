@@ -17,12 +17,15 @@ function preloadImage(img){
 }
 const imgOptions = {};
 const imgObserver = new IntersectionObserver((entries,imgObserver) => {
-    if(!FileSystemEntry.isIntersecting){
-        return;
-    } else{
-        preloadImage(entry.target);
-        imgObserver.unobserve(entry.target);
-    }
+    entries.forEach(entry =>{
+        if(!entry.isIntersecting){
+            return;
+        } else{
+            preloadImage(entry.target);
+            imgObserver.unobserve(entry.target);
+        }
+    });
+
 },imgOptions);
 
 images.forEach(image => {
