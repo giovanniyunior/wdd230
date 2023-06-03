@@ -7,13 +7,17 @@ window.onload = function(){
     document.querySelector("span.copyright").innerHTML = "&copy; "+ date.getFullYear();
 
 }
-const images = document.querySelectorAll("[data-src]");
+const images = document.querySelectorAll("img[data-src]");
 function preloadImage(img){
     const src = img.getAttribute("data-src");
     if(!src){
         return;
     }
     img.src = src;
+    img.style.opacity = 1;
+    img.style.transition = "opacity 0.5s";
+
+
 }
 const imgOptions = {
     threshold:0,
@@ -32,5 +36,6 @@ const imgObserver = new IntersectionObserver((entries,imgObserver) => {
 },imgOptions);
 
 images.forEach(image => {
+    image.style.opacity = 0;
     imgObserver.observe(image);
 })
