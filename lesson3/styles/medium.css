@@ -98,9 +98,7 @@
     }
 
     .aligment-bottom {
-        position: absolute;
         padding-bottom: 0.5em;
-        max-width: 70%;
     }
 
     .center-page {
@@ -129,7 +127,7 @@
 
 
     .hr {
-        max-width: 70%;
+        max-width: 100%;
     }
 
     footer {
