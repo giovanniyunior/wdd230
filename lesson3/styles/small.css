@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 
-h1, h2, h3 { font-family: 'Ysabeau', sans-serif; 
+h1,
+h2,
+h3 {
+    font-family: 'Ysabeau', sans-serif;
 }
-.photo-aligment{
+
+.photo-aligment {
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .title-aligment-center {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .text-aligment-center {
     text-align: center;
 }
-.text-center{
+
+.text-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,14 +32,16 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
 
 .img-content {
     object-fit: contain;
-    max-height:100%; 
-    max-width:100%;
+    max-height: 100%;
+    max-width: 100%;
 }
+
 .color-container-circle-border {
     border-radius: 25px;
     background-color: antiquewhite;
     max-width: 100%;
 }
+
 .color-container {
     background-color: antiquewhite;
     max-height: 8em;
@@ -40,37 +49,54 @@ h1, h2, h3 { font-family: 'Ysabeau', sans-serif;
     padding-bottom: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    
+
 }
-.body-container{
+
+.body-container {
     min-height: 20em;
 }
+
 .img-size {
     width: 70%;
 }
-.title2{
+
+.title2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.aligment-bottom{
+
+.aligment-bottom {
     position: absolute;
     width: 100%;
 }
+
 .center-page {
     align-items: center;
     align-self: center;
 }
-footer{
+
+footer {
     bottom: 0px;
     max-width: 100%;
 
 }
-body, header{
+
+body,
+header {
     max-width: 100%;
 
 }
-.list-circle{
+
+nav {
+    flex-direction: row;
+}
+
+nav a {
+    font-size: 1.1rem;
+}
+
+.list-circle {
     list-style-type: circle;
 }
