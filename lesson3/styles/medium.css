@@ -39,8 +39,8 @@
         grid-template-columns: repeat(12, 1fr);
         padding-top: 1em;
         padding-bottom: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
         width: 100%;
     }
 
