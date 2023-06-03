@@ -15,7 +15,10 @@ function preloadImage(img){
     }
     img.src = src;
 }
-const imgOptions = {};
+const imgOptions = {
+    threshold:0,
+    rootMargint: "opx 0px 300px 0px"
+};
 const imgObserver = new IntersectionObserver((entries,imgObserver) => {
     entries.forEach(entry =>{
         if(!entry.isIntersecting){
