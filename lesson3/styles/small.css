@@ -58,7 +58,9 @@ h3 {
 .img-size {
     width: 70%;
 }
-
+.logo-img-size {
+    width: 30%;
+}
 .title2 {
     display: flex;
     justify-content: center;
