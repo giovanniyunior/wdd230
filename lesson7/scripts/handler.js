@@ -6,6 +6,29 @@ window.onload = function(){
 
     document.querySelector("span.copyright").innerHTML = "&copy; "+ date.getFullYear();
 
+    
+// Check if local storage is supported
+if (typeof Storage !== "undefined") {
+    const lastVisitTimestamp = localStorage.getItem("lastVisitTimestamp");
+  
+    // Get the current date as UTC timestamp
+    const currentTimestamp = Math.floor(Date.now() / 1000);
+  
+    // Calculate the difference in seconds between the current visit and the last visit
+    const timeDifference = currentTimestamp - (lastVisitTimestamp || currentTimestamp);
+  
+    // Calculate the number of days between the visits
+    const daysDifference = Math.round(timeDifference / (60 * 60 * 24));
+  
+    // Save the current visit timestamp in local storage
+    localStorage.setItem("lastVisitTimestamp", currentTimestamp);
+  
+    // Display the number of days since the last visit
+    document.getElementById("daysSinceLastVisit").innerHTML = daysDifference.toString();
+
+  } else {
+    console.error("Local storage is not supported.");
+  }
 }
 const images = document.querySelectorAll("img[data-src]");
 function preloadImage(img){
@@ -39,26 +62,3 @@ images.forEach(image => {
     image.style.opacity = 0;
     imgObserver.observe(image);
 });
-
-// Check if local storage is supported
-if (typeof Storage !== "undefined") {
-    const lastVisitTimestamp = localStorage.getItem("lastVisitTimestamp");
-  
-    // Get the current date as UTC timestamp
-    const currentTimestamp = Math.floor(Date.now() / 1000);
-  
-    // Calculate the difference in seconds between the current visit and the last visit
-    const timeDifference = currentTimestamp - (lastVisitTimestamp || currentTimestamp);
-  
-    // Calculate the number of days between the visits
-    const daysDifference = Math.round(timeDifference / (60 * 60 * 24));
-  
-    // Save the current visit timestamp in local storage
-    localStorage.setItem("lastVisitTimestamp", currentTimestamp);
-  
-    // Display the number of days since the last visit
-    document.getElementById('daysSinceLastVisit').innerHTML = daysDifference.toString();
-
-  } else {
-    console.error("Local storage is not supported.");
-  }
