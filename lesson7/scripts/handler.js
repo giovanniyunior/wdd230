@@ -38,4 +38,32 @@ const imgObserver = new IntersectionObserver((entries,imgObserver) => {
 images.forEach(image => {
     image.style.opacity = 0;
     imgObserver.observe(image);
-})
+});
+
+
+// Check if local storage is supported
+if (typeof(Storage) !== "undefined") {
+    // Retrieve the last visit timestamp from local storage
+    var lastVisitTimestamp = localStorage.getItem("lastVisitTimestamp");
+
+    // Get the current date
+    var currentDate = new Date();
+
+    // Convert the current date to a UTC timestamp
+    var currentTimestamp = Math.floor(currentDate.getTime() / 1000);
+
+    // Calculate the difference in seconds between the current visit and the last visit
+    var timeDifference = currentTimestamp - (lastVisitTimestamp || currentTimestamp);
+
+    // Calculate the number of days between the visits
+    var daysDifference = Math.round(timeDifference / (60 * 60 * 24));
+
+    // Save the current visit timestamp in local storage
+    localStorage.setItem("lastVisitTimestamp", currentTimestamp);
+
+    // Display the number of days since the last visit
+    document.getElementById("daysSinceLastVisit").textContent = daysDifference;
+  } else {
+    // Local storage is not supported
+    document.getElementById("daysSinceLastVisit").textContent = "Local storage is not supported.";
+  }
