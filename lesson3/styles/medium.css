@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 
 @media only screen and (min-width: 32.5em) {
-
     h1,
     h2,
     h3 {
@@ -13,8 +12,6 @@
         align-self: flex-start;
         vertical-align: middle;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
     }
 
     .title-aligment-center {
@@ -36,17 +33,13 @@
     .grid {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 0em;
-        padding-right: 0em;
+        padding: 1em 0;
         width: 100%;
     }
 
     .col-1-5 {
         grid-column: 1/5;
         grid-row: 1;
-
     }
 
     .col-5-12 {
@@ -68,11 +61,7 @@
         object-fit: contain;
         max-height: 100%;
         max-width: 100%;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
-
+        padding: 1em;
     }
 
     .color-container-circle-border {
@@ -82,11 +71,7 @@
     .color-container {
         background-color: antiquewhite;
         max-height: 8em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-
+        padding: 0.5em;
     }
 
     .body-container {
@@ -100,9 +85,11 @@
     .img-size {
         width: 100%;
     }
+
     .logo-img-size {
         width: 30%;
     }
+
     .coolors-img-size {
         width: 50%;
     }
@@ -135,18 +122,15 @@
         font-size: 1.1rem;
     }
 
-
     .hr {
         max-width: 100%;
     }
 
     footer {
         bottom: 0px;
-
     }
 
     .list-circle {
         list-style-type: circle;
-
     }
 }
