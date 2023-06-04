@@ -57,7 +57,7 @@ if (typeof Storage !== "undefined") {
     localStorage.setItem("lastVisitTimestamp", currentTimestamp);
   
     // Display the number of days since the last visit
-    document.getElementById("daysSinceLastVisit").innerHTML = daysDifference;
+    document.getElementById("daysSinceLastVisit").innerHTML = daysDifference.toString();
 
   } else {
     console.error("Local storage is not supported.");
