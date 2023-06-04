@@ -28,7 +28,9 @@ h3 {
     align-items: center;
     text-align: center;
 }
-
+.coolors-img-size {
+    width: 50%;
+}
 .img-content {
     object-fit: contain;
     max-height: 100%;
