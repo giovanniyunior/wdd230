@@ -121,23 +121,12 @@
     }
 
     header,
-    nav,
     main,
     footer,
     body {
         max-width: 960px;
         margin: 0 auto;
     }
-
-
-    nav {
-        flex-direction: row;
-    }
-
-    nav a {
-        font-size: 1.1rem;
-    }
-
 
     .hr {
         max-width: 100%;
