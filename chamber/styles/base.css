@@ -141,6 +141,7 @@ header {
 
 header * {
     display: inline;
+    color: white;
 }
 
 /* Add a black background color to the top navigation */
