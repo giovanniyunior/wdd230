@@ -60,6 +60,7 @@ h3 {
 
 .body-container {
     min-height: 20em;
+    display: block;
 }
 
 .img-size {
@@ -110,13 +111,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
