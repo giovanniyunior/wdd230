@@ -132,6 +132,10 @@ header {
     align-items: center;
     box-shadow: 0 0 25px 0 black;
 }
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
