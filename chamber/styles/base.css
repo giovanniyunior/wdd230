@@ -6,8 +6,7 @@ h3,
 p,
 span {
     font-family: 'Ysabeau', sans-serif;
-    margin: 0;
-    padding: 0;
+
 }
 
 .photo-aligment {
@@ -148,6 +147,12 @@ header * {
     display: inline;
     color: white;
 }
+
+.clearSpace {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
