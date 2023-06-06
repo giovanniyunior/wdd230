@@ -122,6 +122,12 @@ header {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -132,18 +138,19 @@ header {
     align-items: center;
     box-shadow: 0 0 25px 0 black;
 }
-header img {
-    height: 80px;
-    margin-left: 40px;
+
+header * {
+    display: inline;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -151,24 +158,24 @@ header img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
     display: none;
-  }
+}
 
 nav {
     background-color: #36454f;
