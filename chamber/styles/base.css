@@ -180,6 +180,11 @@ nav a:hover {
     background-color: #708080;
     color: yellow;
 }
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
 .topnav.responsive {position: relative;}
 .topnav.responsive a.icon {
   position: absolute;
