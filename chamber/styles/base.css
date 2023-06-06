@@ -111,6 +111,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 /* Place text in the middle of the image */
@@ -121,6 +122,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    position: relative;
+
 }
 
 header img {
