@@ -152,7 +152,8 @@ header * {
     position: fixed;
     display: flex;
     height: 50px;
-
+    align-items: center;
+    vertical-align: middle;
 }
 
 /* Style the links inside the navigation bar */
