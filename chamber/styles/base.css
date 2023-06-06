@@ -154,6 +154,7 @@ header * {
     height: 50px;
     align-items: center;
     vertical-align: middle;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
