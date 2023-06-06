@@ -101,6 +101,7 @@ header {
 
 /* The hero image */
 .hero-image {
+    margin-top: 50px;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/heroImage.jpg");
     display: flex;
@@ -116,6 +117,7 @@ header {
 
 /* Place text in the middle of the image */
 .hero-text {
+    margin-top: 50px;
     text-align: center;
     position: relative;
     top: 50%;
