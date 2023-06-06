@@ -129,7 +129,7 @@ header img {
 }
 
 header {
-    position: fixed;
+    position: absolutecss;
     top: 0;
     left: 0;
     right: 0;
