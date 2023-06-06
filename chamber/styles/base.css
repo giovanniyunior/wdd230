@@ -124,7 +124,7 @@ header {
 }
 
 header img {
-    height: 80px;
+    width: 30%;
     margin-left: 40px;
 }
 
@@ -133,7 +133,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 200px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
