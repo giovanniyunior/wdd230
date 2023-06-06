@@ -116,6 +116,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Place text in the middle of the image */
@@ -127,9 +130,6 @@ header {
     transform: translate(-50%, -50%);
     color: white;
     position: relative;
-    height: 30em;
-
-
 }
 
 header img {
