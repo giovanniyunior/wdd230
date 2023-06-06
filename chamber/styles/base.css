@@ -133,7 +133,6 @@ header img {
 
 header {
     background-color: #333;
-    height: 80px;
     top: 0;
     left: 0;
     right: 0;
@@ -151,6 +150,8 @@ header * {
     background-color: #333;
     overflow: hidden;
     position: fixed;
+    display: flex;
+    height: 80px;
 
 }
 
