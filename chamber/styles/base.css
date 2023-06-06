@@ -124,12 +124,13 @@ header {
 }
 
 header img {
-    width: 10%;
+    width: 70px;
     margin-left: 40px;
 }
 
 header {
-    position: absolutecss;
+    position: absolute;
+    height: 80px;
     top: 0;
     left: 0;
     right: 0;
