@@ -122,6 +122,16 @@ header {
     transform: translate(-50%, -50%);
     color: white;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
