@@ -6,4 +6,12 @@ window.onload = function(){
 
     document.querySelector("span.copyright").innerHTML = "&copy; "+ date.getFullYear();
 
+    function navFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
 }
