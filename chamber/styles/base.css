@@ -105,13 +105,11 @@ header {
 
     /* Set a specific height */
     height: 100%;
-    width: 100%;
-
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
 }
 
 /* Place text in the middle of the image */
