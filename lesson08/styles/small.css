@@ -32,7 +32,9 @@ tbody tr:nth-child(even) {
     background-color: gold;
     font-weight: bold;
 }
-
+tbody tr:nth-child(even) th {
+    background-color: #25c;
+  }
 tbody tr:nth-child(odd) {
     background-color: #fff;
 }
