@@ -6,9 +6,13 @@ h3 {
     font-family: 'Ysabeau', sans-serif;
 }
 
+th,
 td {
     border: 1px solid #333;
+    padding: 8px;
+
 }
+
 thead {
     background-color: #333;
     color: #fff;
@@ -16,19 +20,25 @@ thead {
 
 table {
     border-collapse: collapse;
-  }
+}
+
+thead th {
+    width: 25%;
+}
+
 .photo-aligment {
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .imgContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     grid-gap: 1em;
-  }
+}
 
 .title-aligment-center {
     justify-content: center;
@@ -74,9 +84,11 @@ table {
 .img-size {
     width: 70%;
 }
+
 .logo-img-size {
     width: 50%;
 }
+
 .title2 {
     display: flex;
     justify-content: center;
