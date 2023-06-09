@@ -14,6 +14,9 @@ thead {
     color: #fff;
 }
 
+table {
+    border-collapse: collapse;
+  }
 .photo-aligment {
     display: block;
     margin-left: auto;
