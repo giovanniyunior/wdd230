@@ -6,6 +6,14 @@ h3 {
     font-family: 'Ysabeau', sans-serif;
 }
 
+.title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 100%;
+}
+
 th,
 td {
     border: 1px solid #333;
@@ -32,10 +40,11 @@ tbody tr:nth-child(even) {
     background-color: black;
     font-weight: bold;
 }
+
 .cell-header {
     background-color: gray;
     font-weight: bold;
-    color:white;
+    color: white;
 }
 
 tbody tr:nth-child(odd) {
